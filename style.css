@@ -1,2 +1,4 @@
 .cabeçalho{background-color: blueviolet;color: black;display:flex;justify-content:space-around;}
 .imagem-logo{width:20%}
+.cabeçalho_lista item {display:insine-block;
+    margin:16px;font-size:20px}
