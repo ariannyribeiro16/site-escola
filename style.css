@@ -2,3 +2,13 @@
 .imagem-logo{width:20%}
 .cabeçalho_lista item {display:insine-block;
     margin:16px;font-size:20px}
+     .escritora de livros-imagem{width:25%;}
+.escritora de livros{
+    background-image: linear-gradient(#855bbd,#855bbd)
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px0;}
+escritora de livros-div-conteudo {width: 45%}
+escritora de livros-titulo{padding: 30px 0;}
