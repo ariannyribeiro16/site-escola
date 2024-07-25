@@ -5,7 +5,7 @@
 
      .livros-imagem{width:25%;}
 .livros{
-    background-image: linear-gradient(#6c33b6,#763dc0);
+    background-image: linear-gradient(#7549af,#754aad);
 color:#000000;
 display:flex;
 justify-content:center;
@@ -14,7 +14,7 @@ padding: 24px 0; }
 .livros-div-conteudo {width: 45%}
 .livros-titulo{padding: 30px 0;}
 
-.gatos{ padding: 24px 0; background-color:rgb(109, 50, 165)}
+.gatos{ padding: 24px 0; background-color:rgb(113, 61, 161)}
 
 .gatos-imagem{width: 140px;}
 
@@ -37,4 +37,17 @@ padding:16px 0;}
  background-color:#764cac;
  color:rgb(10, 15, 15);
  text-align: center;
+}
+
+.contato{
+    background-color: rgb(128, 74, 189);
+}
+.contato_titulo{
+    color: rgb(2, 2, 2); display:flex; justify-content: space-around; align-items: center;
+}
+.contato_email {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 24px;
+    width: 90%;
 }
