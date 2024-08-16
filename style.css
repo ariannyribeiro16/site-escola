@@ -53,13 +53,13 @@ padding:16px 0;}
 }
 
 .tópicos {
-background-color: rgb(153, 125, 187);
+background-color: rgb(173, 143, 209);
 text-align: center;
-padding: 1em;
+padding: 1em 0;
 }
 
 .tópicos_titulo {
-    color: rgb(17, 12, 27);
+    color: rgb(255, 255, 255);
     font-weight: 300;
     margin-bottom: 1em;
 }
@@ -76,9 +76,9 @@ padding: 1em;
 }
 
 .tópicos_link {
-    color: #9d7eb9(255, 255, 255);
+    color: #ffffff(255, 255, 255);
     padding: 1em;
-    background-color: #7549af(252, 134, 0);
+    background-color: #ffffff(252, 134, 0);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
