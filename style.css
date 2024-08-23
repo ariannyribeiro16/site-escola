@@ -1,9 +1,13 @@
-.cabeçalho{background-color: rgb(146, 0, 0);color: black;display:flex;justify-content:space-around;}
+.cabeçalho{background-color: rgb(148, 0, 0);color: black;display:flex;
+    justify-content:space-around; align-items: center;}
 .imagem-logo{width:20%}
-.cabeçalho_lista item {display:insine-block;
-    margin:16px; font-size:20px}
+
+.cabeçalho_lista item {display:insine-block;margin: 0 16px; font-size:20px;}
+
+.cabeçalho-lista{display: inside-block;}
 
      .livros-imagem{width:25%;}
+
 .livros{
     background-image: linear-gradient(#8a0000,#8b0000);
 color:#000000;
@@ -21,6 +25,7 @@ padding: 24px 0; }
 .gatos-div{
 text-align:center;
 padding:16px 0;}
+
 .gatos-titulo{
     text-align:center;
     padding: 50px 0;
@@ -37,10 +42,14 @@ padding:16px 0;}
  background-color:#8a0000;
  color:rgb(10, 15, 15);
  text-align: center;
+ padding: 1em 0;
+ 
 }
 
 .contato{
     background-color: rgb(153, 0, 0);
+    padding: 1em 0;
+
 }
 .contato_titulo{
     color: rgb(2, 2, 2); display:flex; justify-content: space-around; align-items: center;
@@ -113,4 +122,33 @@ padding: 1em0;
     text-align: center;
     color: #ffffff(255, 255, 255);
     background-position: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner_titulo {
+        font-size: 36px;
+    }
+
+    .banner_pesquisa {
+        width: 50%;
+    }
+
+    .banner_pesquisa::placeholder {
+        background-position: 7em;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .banner_pesquisa {
+        width: 35%;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .banner_pesquisa::placeholder {
+        background-position: 12em;
+    }
 }
