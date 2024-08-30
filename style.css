@@ -64,7 +64,7 @@ padding:16px 0;}
 .tópicos {
 background-color: rgb(235, 61, 61);
 text-align: center;
-padding: 1em0;
+padding: 1em 0;
 }
 
 .tópicos_titulo {
@@ -87,7 +87,7 @@ padding: 1em0;
 .tópicos_link {
     color: #662f94(255, 255, 255);
     padding: 1em;
-    background-color: #ff0707(252, 134, 0);
+    background-color: #9c0000(252, 134, 0);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
